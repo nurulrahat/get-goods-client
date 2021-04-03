@@ -1,0 +1,12 @@
+.cardCls{
+    width: 60%;
+    border:solid 1px rgb(236, 223, 223);
+    color:white;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.cardCls input{
+    width: 200px;
+    margin:5px;
+    border-radius: 5px;
+}

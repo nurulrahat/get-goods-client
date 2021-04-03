@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Freezer",
+        "about": "Get Your  Freezer in One Click",
+        "img": "https://i5.walmartimages.com/asr/6a21d4d7-6e05-430f-a819-0720b541da85_1.510ad823bf6e42936dec8f1224c192e3.jpeg",
+        "price": 98
+    },
+    {
+        "id": 2,
+        "name": "Mango",
+        "about": "Get Your Mango in One Click",
+        "img": "https://media.millichronicle.com/2019/05/12125624/mangoes-chopped-and-fresh.jpg",
+        "price": 60
+    },
+    {
+        "id": 3,
+        "name": "Water Mellon",
+        "about": "Get Your Water Mellon in One Click",
+        "img": "https://www.farmflavor.com/wp-content/uploads/2020/05/healthy-3327347_1920.jpg",
+        "price": 82
+    },
+    {
+        "id": 4,
+        "name": "Dairy Milk",
+        "about": "Get Your Dairy Milk in One Click",
+        "img": "https://n2.sdlcdn.com/imgs/e/v/z/Cadbury-Cadbury-Dairy-Milk-Silk-SDL059134018-2-50062.jpg",
+        "price": 37
+    },
+    {
+        "id": 5,
+        "name": "Kit-Kat",
+        "about": "Get Kit kat Your in One Click",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/81yc8C7LsrL._AC_SL1500_.jpg",
+        "price": 93
+    },
+    {
+        "id": 6,
+        "name": "Bucket",
+        "about": "Get Your Bucket in One Click",
+        "img": "https://www.express-cleaning-supplies.co.uk/custom/upload/images/products/resized/544x544/3302831.jpg",
+        "price": 68
+    },
+    {
+        "id": 7,
+        "name": "Ice-Cream",
+        "about": "Get IceBar Your in One Click",
+        "img": "https://lmld.org/wp-content/uploads/2012/07/Chocolate-Ice-Cream-3.jpg",
+        "price": 16
+    },
+    {
+        "id": 8,
+        "name": "Chocolate IceBar",
+        "about": "Get Your Chocolate in One Click",
+        "img": "https://www.haagendazs.us/sites/site.prod1.haagendazs.us/files/product/product-image/hero-sept-2019-vanillamilkchocolatealmondbar.jpg",
+        "price": 93
+    },
+    {
+        "id": 9,
+        "name": "LED TV",
+        "about": "Get Your LED  in One Click",
+        "img": "https://www.sony-asia.com/image/0e614d566f11f2bac75a48b230d142fe?fmt=png-alpha&wid=720",
+        "price": 22
+    },
+    {
+        "id": 10,
+        "name": "Toys",
+        "about": "Get Your Toys in One Click",
+        "img": "https://m.media-amazon.com/images/S/aplus-media/sc/f375424d-418e-49dc-9e55-5b144cab5262.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+        "price": 26
+    }
+]
