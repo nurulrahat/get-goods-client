@@ -6,17 +6,15 @@ import { UserContext } from '../../App';
 import './checkOut.css'
 const CheckOut = () => {
     const { id } = useParams();
-    const url = `http://localhost:5000/products`
+    const url = `https://obscure-ridge-98206.herokuapp.com/products`
     console.log(id)
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const [product, setProduct] = useState({})
     useEffect(() => {
 
-        fetch(`http://localhost:5000/checkout/${id}`)
+        fetch(`https://obscure-ridge-98206.herokuapp.com/checkout/${id}`)
             .then(response => response.json())
             .then(result => setProduct(result))
-
-
     }, [id])
     console.log(product)
     
@@ -24,6 +22,26 @@ const CheckOut = () => {
     
         sessionStorage.setItem('productId', id)
         console.log('productId stored',id)
+        const oderDate=document.getElementById('date').value;
+        const userName=document.getElementById('name').value;
+        const orderedDetails = {
+            name:product.name, 
+            about:product.about,
+            price:product.price,
+            quantity:product.quantity,
+            email:loggedInUser.email,
+            user:userName,
+            date:oderDate,
+        }
+console.log(orderedDetails)
+const url=`https://obscure-ridge-98206.herokuapp.com/insertorder`
+        fetch(url,{
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(orderedDetails)
+        }).then(res=>console.log('ordered database response successfully'))
     }
 
     return (

@@ -4,7 +4,7 @@ import Products from '../Products/Products';
 import './home.css'
 const Home = () => {
     const [product, setProduct] = useState([]);
-    const url = `http://localhost:5000/products`;
+    const url = `https://obscure-ridge-98206.herokuapp.com/products`;
     let spin = false;
     useEffect(() => {
         fetch(url)

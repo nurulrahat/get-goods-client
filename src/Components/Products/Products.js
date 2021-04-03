@@ -6,7 +6,6 @@ const Products = (props) => {
     const history =useHistory()
     const handleBuyNow=(id)=>{
         console.log(id._id)
-       
         history.push(`/checkout/${id._id}`)
     }
     return (

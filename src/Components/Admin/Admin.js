@@ -16,7 +16,7 @@ const Admin = () => {
             quantity: data.quantity,
             img: imageUrl
         }
-        const url=`http://localhost:5000/admin`
+        const url=`https://obscure-ridge-98206.herokuapp.com/admin`
         fetch(url,{
             method: 'POST',
             headers: {
