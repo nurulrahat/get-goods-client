@@ -81,7 +81,7 @@ export const signInWithEmailAndPassword = (email, password) => {
             newUserInfo.success = true;
             newUserInfo.error = '';
             return newUserInfo;
-            console.log('sign in user info', res.user)
+            // console.log('sign in user info', res.user)
         })
         .catch((error) => {
             var errorMessage = error.message;

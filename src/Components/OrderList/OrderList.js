@@ -1,7 +1,8 @@
 import React from 'react';
 
 const OrderList = (props) => {
-    const { name, about, quantity, price, date } = props.product;
+    console.log(props.product)
+    const { name, quantity, price, date } = props.product;
 
     return (
         <>

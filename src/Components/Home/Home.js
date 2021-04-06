@@ -16,11 +16,11 @@ const Home = () => {
     if (product) {
         spin = true;
     }
-//     const spinnerFeature=()=> {
-//         if(spin)
-//         document.getElementById("spinner").style.display="none"
-//     }
-// spinnerFeature();
+    //     const spinnerFeature=()=> {
+    //         if(spin)
+    //         document.getElementById("spinner").style.display="none"
+    //     }
+    // spinnerFeature();
     return (
         <div className="row row-cols-1 row-cols-md-4 g-5 background ">
 
@@ -28,10 +28,11 @@ const Home = () => {
                 product.map(product => <Products product={product} key={product._id}></Products>)
 
             }
-            {/* <div className="d-flex justify-content-center" id="spinner">
-                <div className="spinner-border" role="status">  
+            { <div class="d-flex justify-content-center m-5 ">
+                <div id="spinnerId" class="spinner-border text-success m-5 d-none " role="status">
+                    {/* <span class="visually-hidden">Loading...</span> */}
                 </div>
-            </div> */}
+            </div>}
         </div>
     );
 };
